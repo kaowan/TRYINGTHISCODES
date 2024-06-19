@@ -1,0 +1,84 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4682b4;
+    color: white;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #e0e0e0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #ccc;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.subject {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.subject h2 {
+    color: #4682b4;
+    margin-bottom: 10px;
+}
+
+.activities {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.activities h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.activities ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.activities ul li {
+    margin-bottom: 8px;
+}
+
+footer {
+    background-color: #4682b4;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
